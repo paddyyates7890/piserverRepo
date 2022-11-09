@@ -1,0 +1,111 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: antiquewhite;
+}
+
+
+nav {
+	background-color: grey;
+	border: 1px solid grey;
+	border-radius: 4px;	
+}
+
+ul.navigation-bar {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 15px;
+}
+
+.navigation-bar li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a {
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px;
+	text-decoration: none;
+}
+
+a:link {
+	color: darkblue;
+}
+
+a:visited {
+	color: darkgreen;
+}
+
+a:hover {
+	background-color: antiquewhite;
+	border: 1px solid antiquewhite;
+	border-radius: 4px;
+}
+
+footer {
+	background-color: grey;
+	border: 1px solid grey;
+	border-radius: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+main {
+	background-color: grey;
+	border: none;
+	border-radius: 4px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+.home-list {
+	padding-left: 5px;
+}
+
+.nav-explication {
+	margin-left: 4px;
+}
+
+.suggestions input[type=text], select {
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 12px 20px;
+	
+}
+
+.suggestions input[type=submit] {
+	width: 150px;
+	background-color: antiquewhite;
+	color: black;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 12px 20px;
+}
+
+.suggestions label {
+	margin-bottom: 5px;
+}
+
+.content-future{
+	background-color: lightgray;
+	padding: 15px;
+	margin-bottom: 5px;
+	border: none;
+	border-radius: 4px;
+}
+
+
+
+
+

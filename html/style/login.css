@@ -1,0 +1,31 @@
+.login-form {
+    background-color: gray;
+    margin-left: 300px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    height: 40%;
+}
+
+.login-form input[type=text], select {
+    width: 400px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 12px 20px;
+}
+
+.login-form input[type=submit] {
+    width: 150px;
+	color: black;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 12px 20px;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+}
